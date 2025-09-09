@@ -1,0 +1,4 @@
+[2025-03-06 11:57:28] - [INFO] - [agent=sca_cli, agent-version=0.0.0-SNAPSHOT-7a82318, state=CLI_PRE_RUN] - setting interactive output: true
+[2025-03-06 11:57:28] - [INFO] - [agent=sca_cli, agent-version=0.0.0-SNAPSHOT-7a82318, state=CLI_PRE_RUN] - validating integration with mend CLI
+[2025-03-06 11:57:28] - [ERROR] - [agent=sca_cli, agent-version=0.0.0-SNAPSHOT-7a82318, state=CLI_PRE_RUN] - missing essential config please run mend auth login
+[2025-03-06 11:57:28] - [ERROR] - [agent=sca_cli, agent-version=0.0.0-SNAPSHOT-7a82318, state=CLI_PRE_RUN] - terminating scan

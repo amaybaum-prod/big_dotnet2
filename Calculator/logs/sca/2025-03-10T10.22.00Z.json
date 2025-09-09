@@ -1,0 +1,135 @@
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/ws.go:49",
+  "func": "main.main",
+  "level": "info",
+  "msg": "OS Stats",
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/ws.go:49",
+  "func": "main.main",
+  "level": "info",
+  "msg": "scan parameters",
+  "scan_parameters": {
+    "all-scopes": false,
+    "dir": ".",
+    "engine-report-file-path": "",
+    "export-results": "",
+    "export-token": false,
+    "extended": false,
+    "extra-logs": false,
+    "fail-policy": false,
+    "file": "",
+    "files-resolving": "",
+    "format": "text",
+    "help": false,
+    "json-log-files": false,
+    "label-app": "",
+    "label-proj": "",
+    "local": false,
+    "log-level": "INFO",
+    "max-size": 0,
+    "multi-projects": false,
+    "no-color": false,
+    "no-default-exclusions": false,
+    "non-interactive": false,
+    "persist-update-request": false,
+    "print-to-console": false,
+    "reachability": false,
+    "run-mode": "l",
+    "sbom-format": "",
+    "scan-ctx": "",
+    "scope": "",
+    "skip-enforce": false,
+    "split-modules": false,
+    "strict": false,
+    "tree-file": "",
+    "update": false,
+    "upload-logs": true
+  },
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/vendor/github.com/spf13/cobra/command.go:961",
+  "func": "github.com/spf13/cobra.(*Command).ExecuteContext",
+  "level": "info",
+  "msg": "setting interactive output: true",
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/vendor/github.com/spf13/cobra/command.go:968",
+  "func": "github.com/spf13/cobra.(*Command).Execute",
+  "level": "info",
+  "msg": "validating integration with mend CLI",
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/vendor/github.com/spf13/cobra/command.go:1044",
+  "func": "github.com/spf13/cobra.(*Command).ExecuteC",
+  "level": "error",
+  "msg": "missing essential config please run mend auth login",
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/vendor/github.com/spf13/cobra/command.go:968",
+  "func": "github.com/spf13/cobra.(*Command).Execute",
+  "level": "error",
+  "msg": "terminating scan",
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/vendor/github.com/spf13/cobra/command.go:961",
+  "func": "github.com/spf13/cobra.(*Command).ExecuteContext",
+  "level": "debug",
+  "msg": "Cleaning up temp dir",
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/home/runner/work/whitesource-cli/whitesource-cli/vendor/github.com/spf13/cobra/command.go:968",
+  "func": "github.com/spf13/cobra.(*Command).Execute",
+  "level": "debug",
+  "msg": "isLogLevelDebug: false, delLogs: false",
+  "state": "CLI_PRE_RUN",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/opt/hostedtoolcache/go/1.21.13/x64/src/runtime/asm_arm64.s:1197",
+  "func": "runtime.goexit",
+  "level": "debug",
+  "msg": "sending metrics",
+  "time": "2025-03-10 12:22:00"
+}
+{
+  "agent": "sca_cli",
+  "agent_version": "0.0.0-SNAPSHOT-7a82318",
+  "file": "/opt/hostedtoolcache/go/1.21.13/x64/src/runtime/asm_arm64.s:1197",
+  "func": "runtime.goexit",
+  "level": "debug",
+  "msg": "failed sending metrics: AgentClient - url not set%!(EXTRA *errors.errorString=AgentClient - url not set)",
+  "time": "2025-03-10 12:22:00"
+}

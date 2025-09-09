@@ -1,0 +1,9 @@
+2025-03-16T20:25:18.304+0200 INFO Logger initialized
+2025-03-16T20:25:18.305+0200 INFO Starting AI scanner
+2025-03-16T20:25:19.606+0200 WARN Failed loading AI Project Configurations from Mend Platform, will use default settings
+2025-03-16T20:25:19.606+0200 DEBUG Updating scan parameters from platform settings {"settings": {"SNIPPET_LINES":5,"SNIPPET_SEND_ENABLED":false}}
+2025-03-16T20:25:19.606+0200 DEBUG Scanning code for AI models {"projectUUID": "ff3762ad-f8a3-45bd-8d7d-29399753f35e"}
+2025-03-16T20:25:19.606+0200 DEBUG Reading update request file {"path": "/Users/alexmaybaum/.mend/logs/sca/update-request.txt"}
+2025-03-16T20:25:19.617+0200 DEBUG Decoding update request file {"path": "/Users/alexmaybaum/.mend/logs/sca/update-request.txt"}
+2025-03-16T20:25:19.618+0200 DEBUG Starting folder scan {"dir": "/Users/alexmaybaum/Documents/Test/Reachability/Java/Calculator", "path": "/Users/alexmaybaum/.mend/logs/sca/update-request.txt"}
+2025-03-16T20:25:19.643+0200 DEBUG Extending the existing update request file {"path": "/Users/alexmaybaum/.mend/logs/sca/update-request.txt"}
