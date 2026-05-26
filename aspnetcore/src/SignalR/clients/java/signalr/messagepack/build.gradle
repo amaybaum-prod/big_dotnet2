@@ -13,7 +13,7 @@ java
 
 dependencies {
     implementation project(':core')
-    implementation 'org.msgpack:msgpack-core:0.8.20'
+    implementation 'org.msgpack:msgpack-core:0.9.11'
     implementation 'org.msgpack:jackson-dataformat-msgpack:0.8.20'
 }
 
