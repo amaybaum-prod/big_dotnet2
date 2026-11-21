@@ -14,7 +14,7 @@ dependencies {
     implementation 'ch.qos.logback:logback-classic:1.2.3'
     implementation project(':core')
     implementation project(':messagepack')
-    antJUnit 'org.apache.ant:ant-junit:1.10.15'
+    antJUnit 'org.apache.ant:ant-junit:1.10.18'
 }
 
 sourceSets {
